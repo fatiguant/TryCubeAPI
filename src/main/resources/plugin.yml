@@ -1,0 +1,31 @@
+name: TryCube-API
+version: '${project.version}'
+main: fr.tcapi.server.ServerMain
+authors: [Deglam, Azkv]
+description: L'API principale de TryCube, gère le serveur !
+commands:
+  f:
+    description: Commande relier au système d'ami.
+  report:
+    description: Permet de signaler un joueur a l'équipe de modération.
+  try+:
+    description: Permet de paramétrer son §bTry§6+
+    permission: trycube.tryplus
+    permission-message: "§3TryCube §8┃ §cVous ne disposez du rang néccesaires !"
+  web:
+    aliases:
+      - site
+      - website
+      - siteweb
+  discord:
+    aliases:
+      - dsc
+      - dc
+  ro:
+    aliases:
+      - reportchat
+      - rpc
+      - chatmod
+    description: §cCOMMANDE STAFF
+    permission: trycube.reportchat
+    permission-message: "§3TryCube §8┃ §cVous ne disposez du rang néccesaires !"

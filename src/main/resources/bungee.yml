@@ -1,0 +1,5 @@
+name: TryCube-API
+version: '${project.version}'
+main: fr.tcapi.proxy.BungeeMain
+authors: [Deglam, Azkv]
+description: L'API principale de TryCube, gère le serveur !
