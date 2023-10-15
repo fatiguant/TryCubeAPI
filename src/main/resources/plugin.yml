@@ -1,7 +1,7 @@
 name: TryCube-API
 version: '${project.version}'
 main: fr.tcapi.server.ServerMain
-authors: [Deglam, Azkv]
+authors: [Awezial]
 description: L'API principale de TryCube, gère le serveur !
 commands:
   f:
